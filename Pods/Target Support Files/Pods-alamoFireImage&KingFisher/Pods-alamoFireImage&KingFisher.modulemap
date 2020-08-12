@@ -1,0 +1,6 @@
+framework module Pods_alamoFireImage_KingFisher {
+  umbrella header "Pods-alamoFireImage&KingFisher-umbrella.h"
+
+  export *
+  module * { export * }
+}
