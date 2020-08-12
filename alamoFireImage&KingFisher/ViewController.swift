@@ -11,9 +11,7 @@ import AlamofireImage
 import Kingfisher
 
 class ViewController: UIViewController {
-    
     @IBOutlet weak var img: UIImageView!
-    
     let url = URL(string:"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRa_NE7cHQkudVWUIB5nw6h025k-Ootj3n3xzJIHNC1UmL_9mDj")
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,8 +26,6 @@ class ViewController: UIViewController {
         }else{
             kingFisherGetImage()
         }
-        
-        
     }
     
     //MARK:- Helper function
